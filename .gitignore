@@ -11,3 +11,8 @@ ENV
 *~
 
 __pycache__
+
+
+tile-generator/*.mbtiles
+tile-generator/tiles/
+tile-generator/OUT/
