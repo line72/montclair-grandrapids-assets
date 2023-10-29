@@ -18,6 +18,10 @@ class Configuration {
     constructor() {
         // Grand Rapids, MI
         this.center = [42.967101, -85.671030];
+        this.tileserver = {
+            url: 'https://grandrapids.gotransitapp.com/tiles/{z}/{x}/{y}.png',
+            subdomains: ''
+        };
 
         this.agencies = [
             {
